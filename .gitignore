@@ -1,0 +1,6 @@
+# IDEA.
+/.idea/
+/devops_sr_2.iml
+
+# Python.
+/.venv/
