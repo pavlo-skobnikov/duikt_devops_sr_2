@@ -1,0 +1,24 @@
+{
+    "student": {
+        "full_name": "John Doe",
+        "group_number": "GRP-123",
+        "birth_date": "1990-01-01T00:00:00",
+        "address": "123 Main St"
+    },
+    "performance": [
+        {
+            "subject": "Philosophy",
+            "actual_grade": 5,
+            "desired_grade": 10
+        },
+        {
+            "subject": "Maths",
+            "actual_grade": 3,
+            "desired_grade": 6
+        }
+    ],
+    "summary": {
+        "actual_average_grade": 4.0,
+        "desired_average_grade": 8.0
+    }
+}

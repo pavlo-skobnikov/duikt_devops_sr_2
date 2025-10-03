@@ -1,0 +1,3 @@
+full_name,group_number,birth_date,address,subject,actual_grade,desired_grade,actual_average_grade,desired_average_grade
+John Doe,GRP-123,1990-01-01T00:00:00,123 Main St,Philosophy,5,10,4.0,8.0
+John Doe,GRP-123,1990-01-01T00:00:00,123 Main St,Maths,3,6,4.0,8.0
