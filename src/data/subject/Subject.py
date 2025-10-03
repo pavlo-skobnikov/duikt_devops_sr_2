@@ -9,5 +9,5 @@ class Subject:
     def get_name(self) -> str:
         return self.__name
 
-    def __repr__(self):
+    def __str__(self):
         return f"Subject(name={self.__name})"

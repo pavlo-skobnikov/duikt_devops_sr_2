@@ -49,12 +49,12 @@ class AggregatedStudentInformation:
     def get_desired_average_grade(self) -> float:
         return self.__desired_academic_performance.average_score()
 
-    def __repr__(self):
+    def __format__(self):
         return (
             f"AggregatedStudentInformation(student={self.__student})",
             f"subjects={self.__subjects}",
             f"actual_grades={self.__actual_grades}",
-            f"actual_academic_performance={self.__actual_academic_performance}",
+            f"actual_academic_performance={self.get_actual_average_grade()}",
             f"desired_grades={self.__desired_grades}",
-            f"desired_academic_performance={self.__desired_academic_performance}",
+            f"desired_academic_performance={self.get_desired_average_grade()}",
         )

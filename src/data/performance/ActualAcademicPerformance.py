@@ -12,10 +12,10 @@ class ActualAcademicPerformance(AcademicPerformance):
         self.__actual_subject_scores = actual_subject_scores
 
     def average_score(self) -> float:
-        return sum(self.get_subject_scores().values()) / len(self._subject_scores.len())
+        return sum(self.__actual_subject_scores.values()) / len(self.__actual_subject_scores.values())
 
     def __repr__(self):
         return (
-            f"ActualAcademicPerformance(subject_scores={self._subject_scores})",
+            f"ActualAcademicPerformance(subject_scores={self.__actual_subject_scores})",
             f"actual_average_score={self.average_score()}",
         )

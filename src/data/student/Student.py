@@ -42,7 +42,7 @@ class Student:
     def set_address(self, address):
         self.__address = address
 
-    def __repr__(self):
+    def __str__(self):
         return (
             f'Student(full_name={self.__full_name}, '
             f'group_number={self.__group_number}, '
