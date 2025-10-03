@@ -1,4 +1,4 @@
-import AcademicPerformance
+from src.data.performance.AcademicPerformance import AcademicPerformance
 from src.data.subject.Subject import Subject
 
 
