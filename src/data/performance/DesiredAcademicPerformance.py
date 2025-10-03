@@ -12,8 +12,8 @@ class DesiredAcademicPerformance(AcademicPerformance):
     def __init__(self, desired_subject_scores: dict[Subject, int]):
         self.__desired_subject_scores = desired_subject_scores
 
-    def average_score(self):
-        sum(self.get_subject_scores().values()) / len(self._subject_scores.len())
+    def average_score(self) -> float:
+        return sum(self.get_subject_scores().values()) / len(self._subject_scores.len())
 
     def __repr__(self):
         return (

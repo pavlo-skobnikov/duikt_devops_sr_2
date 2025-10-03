@@ -7,5 +7,5 @@ class AcademicPerformance(ABC):
     """
 
     @abstractmethod
-    def average_score(self):
+    def average_score(self) -> float:
         pass
